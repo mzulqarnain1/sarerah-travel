@@ -68,7 +68,7 @@ export async function POST(request: NextRequest) {
         .join("");
 
       await resend.emails.send({
-        from: "Sarerah Travel <leads@sarerah.com>",
+        from: "Sarerah Travel <leads@sarerahtravel.com>",
         to: "sarerah.travel@gmail.com",
         subject: `New lead from ${lead.sourcePage} — ${lead.name}`,
         html: `<table style="font-family:sans-serif;font-size:15px;color:#1c1917">${rows}</table>`,
