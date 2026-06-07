@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
 import type { Lead } from "@/types";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 async function readLeads(): Promise<Lead[]> {
   try {
@@ -46,9 +49,32 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // In production: save to database (e.g. Prisma + PostgreSQL, Supabase, etc.)
-    // or send to email (e.g. Resend, SendGrid) and/or Google Sheets.
-    // For demo we log and return success. Optionally write to file in dev.
+    if (process.env.RESEND_API_KEY) {
+      const rows = [
+        ["Name", lead.name],
+        ["Phone", lead.phone],
+        lead.email ? ["Email", lead.email] : null,
+        lead.destination ? ["Destination", lead.destination] : null,
+        lead.package ? ["Package", lead.package] : null,
+        lead.travelers ? ["Travelers", lead.travelers] : null,
+        lead.dates ? ["Dates", lead.dates] : null,
+        lead.budget ? ["Budget", lead.budget] : null,
+        lead.message ? ["Message", lead.message] : null,
+        ["Source", lead.sourcePage],
+        ["Time", lead.timestamp],
+      ]
+        .filter(Boolean)
+        .map(([k, v]) => `<tr><td style="padding:4px 12px 4px 0;font-weight:600;white-space:nowrap">${k}</td><td style="padding:4px 0">${v}</td></tr>`)
+        .join("");
+
+      await resend.emails.send({
+        from: "Sarerah Travel <leads@sarerah.com>",
+        to: "sarerah.travel@gmail.com",
+        subject: `New lead from ${lead.sourcePage} — ${lead.name}`,
+        html: `<table style="font-family:sans-serif;font-size:15px;color:#1c1917">${rows}</table>`,
+      });
+    }
+
     if (process.env.NODE_ENV === "development") {
       const fs = await import("fs/promises");
       const path = await import("path");
