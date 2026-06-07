@@ -53,12 +53,12 @@ export default function ContactPage() {
             <ul className="mt-4 space-y-4 text-stone-700">
               <li>
                 <a href="tel:+923001234567" className="link-underline font-medium text-stone-900">
-                  +92 300 1234567
+                  +92 355 4469982
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/923001234567"
+                  href="https://wa.me/923554469982"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-underline text-stone-700 hover:text-stone-900"
@@ -68,7 +68,7 @@ export default function ContactPage() {
               </li>
               <li>
                 <a href="mailto:hello@sarerahtravel.com" className="link-underline font-medium text-stone-900">
-                  hello@sarerahtravel.com
+                  sarerah.travel@gmail.com
                 </a>
               </li>
             </ul>

@@ -71,7 +71,7 @@ export function AboutContent() {
                 Contact us
               </Link>
               <a
-                href="https://wa.me/923001234567"
+                href="https://wa.me/923554469982"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-medium text-stone-600 underline hover:text-stone-900"
