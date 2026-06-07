@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
         ["Source", lead.sourcePage],
         ["Time", lead.timestamp],
       ]
-        .filter(Boolean)
+        .filter((r): r is string[] => r !== null)
         .map(([k, v]) => `<tr><td style="padding:4px 12px 4px 0;font-weight:600;white-space:nowrap">${k}</td><td style="padding:4px 0">${v}</td></tr>`)
         .join("");
 
