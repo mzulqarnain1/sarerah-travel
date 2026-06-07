@@ -52,7 +52,7 @@ export default function ContactPage() {
             <h2 className="font-display text-xl font-semibold text-stone-900">Get in touch</h2>
             <ul className="mt-4 space-y-4 text-stone-700">
               <li>
-                <a href="tel:+923001234567" className="link-underline font-medium text-stone-900">
+                <a href="tel:+923554469982" className="link-underline font-medium text-stone-900">
                   +92 355 4469982
                 </a>
               </li>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@sarerahtravel.com" className="link-underline font-medium text-stone-900">
+                <a href="mailto:sarerah.travel@gmail.com" className="link-underline font-medium text-stone-900">
                   sarerah.travel@gmail.com
                 </a>
               </li>
