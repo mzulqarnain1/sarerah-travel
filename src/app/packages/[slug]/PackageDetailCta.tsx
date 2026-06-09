@@ -13,7 +13,7 @@ export function PackageDetailCta({ packageName }: { packageName: string }) {
             Request itinerary
           </a>
           <a
-            href="tel:+923001234567"
+            href="tel:+923554469982"
             className="inline-flex items-center rounded-full border border-stone-300 px-5 py-2.5 font-medium text-stone-700 hover:bg-stone-50"
           >
             Request callback

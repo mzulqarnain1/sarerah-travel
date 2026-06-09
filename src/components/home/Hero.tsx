@@ -118,7 +118,7 @@ export function Hero() {
             </div>
             <p className="mt-4 text-sm text-white/90 [text-shadow:0_1px_2px_rgba(0,0,0,0.4)]">
               Prefer to chat? Use the{" "}
-              <a href="https://wa.me/923001234567" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">
+              <a href="https://wa.me/923554469982" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">
                 chat button
               </a>{" "}
               in the corner.

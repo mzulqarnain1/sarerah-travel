@@ -31,7 +31,7 @@ export default async function DestinationDetailPage({ params }: Props) {
 
   const packages = getPackagesByDestination(slug);
   const whatsappMessage = `Hi, I'm interested in ${dest.name}. Please share details.`;
-  const whatsappUrl = `https://wa.me/923001234567?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/923554469982?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <div className="pb-24 md:pb-12">

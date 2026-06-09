@@ -17,7 +17,7 @@ interface PackageCardProps {
 export function PackageCard({ pkg }: PackageCardProps) {
   const [imgError, setImgError] = useState(false);
   const whatsappMessage = getPackageWhatsAppMessage(pkg.name);
-  const whatsappUrl = `https://wa.me/923001234567?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/923554469982?text=${encodeURIComponent(whatsappMessage)}`;
   const imageSrc = pkg.images?.[0];
   const useFallback = !imageSrc || imgError;
 

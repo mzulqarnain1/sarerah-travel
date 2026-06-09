@@ -67,7 +67,7 @@ export default function PlanPage() {
                 name="phone"
                 required
                 className="mt-1 min-h-[44px] w-full rounded-lg border border-stone-300 px-4 py-3 text-base text-stone-900 focus:border-teal-500 focus:outline-none focus:ring-1 focus:ring-teal-500"
-                placeholder="+92 300 1234567"
+                placeholder="+92 355 4469982"
               />
             </label>
           </div>

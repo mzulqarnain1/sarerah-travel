@@ -12,13 +12,13 @@ export function MobileStickyBar() {
         Plan trip
       </Link>
       <a
-        href="tel:+923001234567"
+        href="tel:+923554469982"
         className="smooth-tap flex flex-1 items-center justify-center rounded-full border border-stone-300 bg-white py-3 text-sm font-medium text-stone-700 transition-smooth active:scale-[0.98]"
       >
         Call
       </a>
       <a
-        href="https://wa.me/923001234567"
+        href="https://wa.me/923554469982"
         target="_blank"
         rel="noopener noreferrer"
         className="smooth-tap flex flex-1 items-center justify-center rounded-full border border-stone-300 bg-white py-3 text-sm font-medium text-stone-700 transition-smooth active:scale-[0.98]"

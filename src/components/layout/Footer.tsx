@@ -30,19 +30,19 @@ export function Footer() {
               Luxury adventure at excellent value. North Pakistan & Asia — curated trips, seamless experience.
             </p>
             <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-stone-600">
-              <a href="tel:+923001234567" className="link-underline inline-block py-2 hover:text-stone-900">
-                +92 300 1234567
+              <a href="tel:+923554469982" className="link-underline inline-block py-2 hover:text-stone-900">
+                +92 355 4469982
               </a>
               <a
-                href="https://wa.me/923001234567"
+                href="https://wa.me/923554469982"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link-underline inline-block py-2 hover:text-stone-900"
               >
                 WhatsApp
               </a>
-              <a href="mailto:hello@sarerahtravel.com" className="link-underline inline-block py-2 hover:text-stone-900">
-                hello@sarerahtravel.com
+              <a href="mailto:sarerah.travel@gmail.com" className="link-underline inline-block py-2 hover:text-stone-900">
+                sarerah.travel@gmail.com
               </a>
             </div>
           </div>

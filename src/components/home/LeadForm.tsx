@@ -63,7 +63,7 @@ export function LeadForm() {
                 name="phone"
                 required
                 className="mt-1 min-h-[44px] w-full rounded-lg border border-teal-600 bg-white/10 px-4 py-3 text-base text-white placeholder-teal-300 focus:border-teal-400 focus:outline-none focus:ring-1 focus:ring-teal-400"
-                placeholder="+92 300 1234567"
+                placeholder="+92 355 4469982"
               />
             </label>
           </div>

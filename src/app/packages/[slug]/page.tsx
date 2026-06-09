@@ -34,7 +34,7 @@ export default async function PackageDetailPage({ params }: Props) {
 
   const reviews = getReviewsForPackage(slug);
   const whatsappMessage = `Hi, I'm interested in ${pkg.name}. Please share details.`;
-  const whatsappUrl = `https://wa.me/923001234567?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/923554469982?text=${encodeURIComponent(whatsappMessage)}`;
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://sarerahtravel.com";
 
@@ -204,7 +204,7 @@ export default async function PackageDetailPage({ params }: Props) {
                     Chat
                   </a>
                   <a
-                    href="tel:+923001234567"
+                    href="tel:+923554469982"
                     className="flex min-h-[44px] w-full items-center justify-center rounded-full border border-stone-300 py-3 font-medium text-stone-600 hover:bg-stone-50"
                   >
                     Call

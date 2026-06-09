@@ -53,8 +53,8 @@ After implementing, keep the GET `/api/leads` for your admin page (protected wit
 
 ## Post-deploy checklist
 
-1. **WhatsApp number:** Replace `923001234567` everywhere with your real number (country code, no +). Search for `923001234567` and `wa.me/923001234567` in the codebase (e.g. `src/lib/whatsapp.ts`, Header, Footer, CTAs).
-2. **Contact email:** Replace `hello@sarerahtravel.com` in Footer and Contact page.
+1. **WhatsApp number:** Replace `923554469982` everywhere with your real number (country code, no +). Search for `923554469982` and `wa.me/923554469982` in the codebase (e.g. `src/lib/whatsapp.ts`, Header, Footer, CTAs).
+2. **Contact email:** Replace `sarerah.travel@gmail.com` in Footer and Contact page.
 3. **Sitemap & robots:** In `src/app/sitemap.ts` and `src/app/robots.ts`, set `BASE` (or use `NEXT_PUBLIC_SITE_URL`) to your real domain.
 4. **Trust badges:** Edit `src/data/trust.ts` to match your real stats (e.g. review count, rating).
 5. **Images:** Replace Unsplash URLs in `src/data/` with your own images (or keep for placeholder). Ensure `next.config.ts` `images.domains` includes any external image host you use.
